@@ -1,0 +1,82 @@
+.backgroundImageProject {
+  width: 83%;
+  background: linear-gradient(to left, #000000d0, #000000d0),
+    url(../../assets/newFolder/proj6.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 54vh;
+  background-size: cover;
+  margin: auto;
+  background-position: center center;
+}
+
+.projectSide {
+  background-color: black;
+  padding-top: 1rem;
+}
+.backgroundImageProject h2 {
+  color: #fff;
+  z-index: 2;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 64px;
+}
+.backgroundImageProject p {
+  color: #fff;
+  margin: auto;
+  z-index: 2;
+  font-size: 20px;
+}
+.text {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7rem;
+}
+.containerPrices {
+  background-color: black;
+  padding-bottom: 2rem;
+  padding-top: 9rem;
+}
+
+.priceCard p {
+  color: #fff;
+  line-height: 45px;
+  font-size: 20px;
+}
+.priceCard h1 {
+  color: #fff;
+  font-size: 68px;
+  /* line-height: 88px; */
+  padding-bottom: 2rem;
+  font-weight: 100;
+}
+.priceCard {
+  border: 2px solid #fff;
+  width: 400px;
+  margin-top: 3rem;
+  text-align: center;
+  background-color: black;
+  margin-left: 2rem;
+  min-height: 32rem;
+  border-radius: 6px;
+  padding: 14px 0 19px 0;
+}
+.priceCard button {
+  width: 261px;
+  padding: 14px 5px;
+  background-color: orange;
+  outline: none;
+  border: 1px solid orange;
+  color: black;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.prices {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}

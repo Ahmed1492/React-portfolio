@@ -1,0 +1,55 @@
+.backgroundHomePage {
+  background-image: url(../../assets/intro-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  /* background-color: black; */
+}
+.homepageDescription h1 {
+  font-size: 62px;
+}
+.homepageDescription p {
+  font-weight: 100;
+  line-height: 4rem;
+  font-size: 20px;
+}
+.homepageDescription {
+  z-index: 2;
+  color: #fff;
+  margin-left: 22px;
+  position: absolute;
+  /* left: 49%; */
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.projectButton {
+  background-color: orange;
+  color: black;
+  border: 1px solid orange;
+  margin-left: 7rem;
+  margin-top: 1rem;
+  transition: 0.7s;
+}
+.contactButton {
+  transition: 0.7s;
+}
+.homePageButton button:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.homePageButton .contactButton:hover {
+  background-color: gray;
+}
+.homePageButton button:nth-child(2) {
+  margin-left: 10px;
+}
+/* media Query */

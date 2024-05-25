@@ -1,0 +1,21 @@
+.homePage {
+  background-image: url(../../assets/intro-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.containerss {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}

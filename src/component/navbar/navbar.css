@@ -1,0 +1,28 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+  z-index: 4;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  position: fixed;
+  left: 4rem;
+  background-color: #0000006b;
+  z-index: 99999;
+}
+.leftNavBar {
+  display: flex;
+  gap: 35px;
+}
+
+.rightNavBar h3 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.leftNavBar li a {
+  font-size: 19px;
+  color: #fff;
+}

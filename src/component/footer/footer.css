@@ -1,0 +1,67 @@
+.footerContainer {
+  background-color: black;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  justify-content: center;
+  gap: 38rem;
+  padding: 4rem 1rem;
+  background-color: #100e0e;
+}
+.rightFooter h4 {
+  padding: 9px;
+  color: #fff;
+}
+.colorWhite {
+  color: #fff;
+  text-align: left;
+}
+.rightFooter p {
+  width: 38rem;
+  padding: 9px;
+  color: #fff;
+}
+
+.footerHome {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-align: left;
+}
+.rightFooter p {
+  text-align: left;
+  line-height: 25px;
+}
+.leftFooter p {
+  text-align: left;
+  line-height: 25px;
+}
+
+.footerCall {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.footerEmail {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.faceIcon {
+  color: #fff;
+}
+.twiterIcon {
+  color: #fff;
+  font-size: 37px;
+}
+.linkedinIcon {
+  color: #fff;
+  font-size: 37px;
+}

@@ -1,0 +1,58 @@
+.backgroundImageAbout {
+  width: 83%;
+  background: linear-gradient(to left, #000000d0, #000000d0),
+    url(../../assets/newFolder/proj5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 67vh;
+  background-size: cover;
+  margin: auto;
+  background-position: center 80%;
+}
+.containerAbout {
+  background-color: black;
+}
+.txt {
+  padding-top: 9rem;
+}
+.backgroundImageAbout h1 {
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 9px;
+}
+.backgroundImageAbout p {
+  color: #fff;
+  font-size: 19px;
+}
+.leftSide {
+  color: #fff;
+  margin-left: 10rem;
+  margin-top: 7rem;
+}
+.leftSide p {
+  line-height: 33px;
+  font-size: 18px;
+}
+.leftSide h1 {
+  padding-bottom: 1rem;
+  font-size: 31px;
+}
+.descriptionAboutBar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 8rem;
+}
+.rightSide {
+  background-image: url(../../../src/assets/react2.webp);
+  width: 41rem;
+  height: 28rem;
+  position: relative;
+}
+.rightSide img {
+  width: 36rem;
+  position: absolute;
+  right: 18rem;
+  top: 6rem;
+}

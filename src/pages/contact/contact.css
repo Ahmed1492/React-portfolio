@@ -1,0 +1,59 @@
+.containerContact {
+  background-color: black;
+}
+.backgroundContact {
+  width: 83%;
+  background: linear-gradient(to left, #000000d0, #000000d0),
+    url(../../assets/newFolder/proj6.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 54vh;
+  background-size: cover;
+  margin: auto;
+  background-position: center center;
+}
+.text {
+  color: #fff;
+}
+.text h1 {
+  font-size: 35px;
+}
+.text p {
+  font-size: 20px;
+}
+.contactInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 6rem;
+}
+.contactInputs p {
+  color: #fff;
+  text-align: left;
+  line-height: 45px;
+}
+.contactInputs input {
+  width: 40rem;
+  background-color: #232020;
+  height: 46px;
+  border: 1px solid #232020;
+  color: #fff;
+  padding-left: 11px;
+  font-size: 19px;
+}
+.contactInputs textarea {
+  width: 40rem;
+  background-color: #232020;
+  border: 1px solid #232020;
+  color: #fff;
+  padding-left: 11px;
+  font-size: 19px;
+}
+.submitContactButton {
+  background-color: orange;
+  color: black;
+  width: 40rem;
+  font-weight: bold;
+}
